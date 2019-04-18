@@ -1,0 +1,32 @@
+.subtitulo {
+    font-size: 1.2em;
+}
+
+.color-acamica {
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0274ff+1,5502ff+53,7e02ff+100 */
+background: #0274ff; /* Old browsers */
+background: -moz-linear-gradient(left, #0274ff 1%, #5502ff 53%, #7e02ff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #0274ff 1%,#5502ff 53%,#7e02ff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #0274ff 1%,#5502ff 53%,#7e02ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0274ff', endColorstr='#7e02ff',GradientType=1 ); /* IE6-9 */
+}
+
+.borde-azul {
+    border: 1px solid rgba(128, 128, 128, 0.322);
+    border-left: 3px solid #0274ff;
+    font-size: 1.2em;
+    margin: 0 auto;
+}
+
+.btn {
+    transition: all ease .3s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    background-color: #0274ff;
+    color: white;
+    padding-right: 55px!important;
+    padding-left: 55px!important;
+}
